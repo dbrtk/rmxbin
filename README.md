@@ -7,4 +7,4 @@ Generating a key for the apache user:
 ```
 ssh-keygen -t rsa -b 4096 -u apache
 ```
-In this case a location is chosen by default (i.e. ```/usr/share/httpd/.ssh/id_rsa```).
+In this case a location is chosen by default (i.e. `/usr/share/httpd/.ssh/id_rsa`). The location of the ssh key will need to be updated in the scripts.
