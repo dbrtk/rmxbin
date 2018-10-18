@@ -8,3 +8,5 @@ Generating a key for the apache user:
 ssh-keygen -t rsa -b 4096 -u apache
 ```
 In this case a location is chosen by default (i.e. `/usr/share/httpd/.ssh/id_rsa`). The location of the ssh key will need to be updated in the scripts.
+
+Rmxbin is used by nlp (https://github.com/dbrtk/nlp), hence it should be on the same server, as the one that contains NLP. The path to rmxbin should be updated in the configuraion file in nlp.
